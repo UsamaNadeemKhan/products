@@ -1,0 +1,38 @@
+.container {
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 3px;
+}
+
+.btnAdd {
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: white;
+    background-color: rgb(78, 159, 252);
+}
+
+.btnDetails {
+    background-color: rgb(240, 240, 240);
+    color: rgb(78, 159, 252);
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    &:hover {
+        transition: all 0.5s;
+        color: rgb(240, 240, 240);
+        background-color: rgb(78, 159, 252);
+    }
+}
+.ant-input-affix-wrapper {
+    border-radius: 20px !important;
+}
+/* Status */
+.active,
+.done {
+    color: rgb(52, 182, 69);
+    background-color: rgba(214, 255, 221, 0.3);
+
+}
+
+.inprogress {
+    color: rgb(78, 159, 252);
+}
